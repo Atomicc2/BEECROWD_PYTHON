@@ -18,7 +18,7 @@ n1, n2, n3, n4, n5 = map(int, input().split())
 lista = [n1, n2, n3, n4, n5]
 
 cont = 0
-for i in range(5):
+for i in lista:
     if lista[i] == t:
         cont += 1
 print(cont)
