@@ -7,6 +7,6 @@ while True:
         while x <= z:
             x += y + cont
             cont += 1
-    if x >= z:
         break
+
 print(cont)
